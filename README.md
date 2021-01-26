@@ -10,15 +10,15 @@ HTML 기본 학습
 개요에 대해서 학습합니다.
 
 1. Hyper Text Markup Language 정의
-2. HTML의 역사
+2. HTML 역사
 3. HTML5의 차이점
 
-- Hyper Text Markup Language 정의
-- HTML의 역사
-- HTML5의 차이점
+- Hyper Text Markup *Language* 정의
+- **HTML** *역사*
+- **HTML5**의 차이점
   - UL1
-  - UL2
-      -UL3
+  - ~UL2~
+      - UL3
 
 
 ---------------
