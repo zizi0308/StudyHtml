@@ -50,7 +50,7 @@ CSS 기본 학습
 
 > CSS is Cascading Style Sheet
 
-`홑따옴표 아니고 물결 밑에 있는 키`
+`홑따옴표 아니고 물결 밑에 있는 키 (테스트 코드)`
 
 ----------------
 
@@ -66,3 +66,9 @@ Javascript 기본 학습
 
 ## Project
 전체 통합 프로젝트
+
+
+
+----------------
+
+문의메일 : whgmlwl222@naver.com
