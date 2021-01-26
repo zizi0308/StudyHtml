@@ -9,11 +9,11 @@ HTML 기본 학습
 ### HTML이란?
 개요에 대해서 학습합니다.
 
-1. Hyrer Text Markup Language 정의
+1. Hyper Text Markup Language 정의
 2. HTML의 역사
 3. HTML5의 차이점
 
-- Hyrer Text Markup Language 정의
+- Hyper Text Markup Language 정의
 - HTML의 역사
 - HTML5의 차이점
 
