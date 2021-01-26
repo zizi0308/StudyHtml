@@ -42,7 +42,9 @@ namespace HelloWorld App {
  
 
 
-![실행결과](img src="ref_image/img_20210126_160135_001.png" width="40%" height="30%")
+####실행결과
+
+<img src="ref_image/img_20210126_160135_001.png" width="40%" height="30%">
 
 
  
