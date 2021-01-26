@@ -30,6 +30,8 @@ CSS 기본 학습
 
 > CSS is Cascading Style Sheet
 
+`홑따옴표아니고 물결 밑에 있는 키`
+
 ----------------
 
 ## Javascript
