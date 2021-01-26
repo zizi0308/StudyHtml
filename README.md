@@ -21,6 +21,20 @@ HTML 기본 학습
   - UL1
   - ~UL2~
       - UL3
+     
+```Javascript
+using System.IO;
+
+name space HelloWorld App {
+  public class Program {
+    public static void main(String[] args) {
+      Console.writeline("Hello,World!");
+     }
+   }
+ }
+      
+```
+    
 
 
 ---------------
@@ -30,7 +44,7 @@ CSS 기본 학습
 
 > CSS is Cascading Style Sheet
 
-`홑따옴표아니고 물결 밑에 있는 키`
+`홑따옴표 아니고 물결 밑에 있는 키`
 
 ----------------
 
