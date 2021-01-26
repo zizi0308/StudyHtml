@@ -26,6 +26,8 @@ HTML 기본 학습
 ## CSS
 CSS 기본 학습
 
+> CSS is Cascading Style Sheet
+
 ----------------
 
 ## Javascript
