@@ -21,7 +21,12 @@ HTML 기본 학습
   - UL1
   - ~UL2~
       - UL3
-     
+
+
+* [X] 학습하기
+* [ ] 복습하기
+
+
 ```C#
 using System.IO;
 
@@ -35,9 +40,9 @@ namespace HelloWorld App {
  
  ```
  
-####실행결과 
 
-<img src="ref_image/img_20210126_160135_001.png" width="40%" height="30%">
+
+![실행결과](img src="ref_image/img_20210126_160135_001.png" width="40%" height="30%")
 
 
  
