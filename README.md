@@ -11,7 +11,12 @@ HTML 기본 학습
 
 1. Hyrer Text Markup Language 정의
 2. HTML의 역사
-3. html5의 차이점
+3. HTML5의 차이점
+
+- Hyrer Text Markup Language 정의
+- HTML의 역사
+- HTML5의 차이점
+
 
 ---------------
 
