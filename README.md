@@ -25,7 +25,7 @@ HTML 기본 학습
 ```C#
 using System.IO;
 
-name space HelloWorld App {
+namespace HelloWorld App {
   public class Program {
     public static void Main(String[] args) {
       Console.Writeline("Hello,World!");
