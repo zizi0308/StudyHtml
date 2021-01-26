@@ -35,7 +35,7 @@ namespace HelloWorld App {
  
  ```
  
- ![실행결과](ref_image/img_20210126_160146_001.png "상대경로")
+ ![실행결과](ref_image/img_20210126_160146_001.png)
  
  참조링크
  ---------------
