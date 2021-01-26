@@ -44,7 +44,7 @@ namespace HelloWorld App {
  
 
 
-#### 실행결과
+#### - 실행결과
 
 ![실행결과](ref_image/img_20210126_160135_001.png)
 
