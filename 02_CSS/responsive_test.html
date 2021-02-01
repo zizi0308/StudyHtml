@@ -3,10 +3,41 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Responsive Web Test</title>
     <meta name='viewport' content='width=device-width, initial-scale=1 user-scalable=no, initial-scale=1'>
     <link rel="stylesheet" href="styles/screen.css" media="screen">
     <link rel="stylesheet" href="styles/print.css"  media="print">
+    <style>
+        /* 모바일
+        @media (max-width: 499px) {
+            body { background-color: red; }
+        }
+        
+        /* 태블릿pc */
+
+        /* @media (min-width: 500px) and (max-width: 799px) {
+            body { background-color: green; }
+        } */
+
+        /* 일반웹 */
+/* 
+        @media (min-width: 800px) {
+            body { background-color: blue; }
+        } */ 
+
+        @media screen and (orientation: portrait) {
+            body {
+                background-color: red;
+            }
+        }
+
+        @media screen and (orientation: landscape) {
+            body {
+                background-color: green;
+            }
+        }
+
+    </style>
 </head>
 <body>
     <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quibusdam reiciendis inventore illo velit qui animi praesentium beatae pariatur doloribus. Voluptatibus corporis ea nemo debitis cumque ipsa nulla totam facere?</h1>
