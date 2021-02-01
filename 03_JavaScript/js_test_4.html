@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html data-rint="alert()">
+<head>
+    <title>Document Object Model</title>
+    <script>
+        window.onload = function() // 지금 순서가 꼬인상황임(10-1참고) 스크립트가 먼저 일을 수행 << onload를 써서 그다음 바디가 일함 
+        // h1 태그의 배경 색상을 변경합니다.
+       { document.querySelector('h1').style.backgroundColor = 'red';  //backgroundColor <<자바스크립트에는 이렇게 씀
+
+        // h2 태그의 글자 색상을 변경합니다.
+        document.querySelector('h2').style.color = 'red';}  //body안에도 script 넣을수 있음! 
+    </script>
+</head>
+<body>
+    <h1>Process - 1</h1>
+    <h2>Process - 2</h2>
+</body>
+</html>

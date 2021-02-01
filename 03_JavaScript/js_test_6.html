@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        // setTimeout(3000); 3초 지연
+
+        window.onload = function () {
+            var clock = document.getElementById("clock");//id 클락개체가져오기
+            setInterval (function() {
+                var now = new Date();
+                clock.innerHTML = now.toDateString(); //클락개체의 html에 현재 3초전의 시간넣기
+                
+            } 
+                , 3000);
+            
+        }
+
+    </script>
+</head>
+<body>
+    <h1 id="clock"></h1>
+    
+</body>
+</html>
