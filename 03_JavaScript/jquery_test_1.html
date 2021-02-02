@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='js/jquery-3.5.1.min.js'></script>  
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <script>
+        // 로드이벤트 // 구세대 유물
+        // window.onload = function () {
+
+        // }
+
+        // jquery 이후 바뀐 이벤트
+        $(document).ready(function() {
+            alert("Hello, World");
+
+            $("h1").css("background-color", "black");
+            $("h1").css("color","white");
+
+            console.log($("script").attr("src"));
+
+            // // 이미지 속성 변경
+            
+            // 속성 값을 입력해 속성 지정
+            // $("img").attr("alt", "jQuery라이브러리로 속성지정"); //이미지 깨졌을때 이미지대신 나오는글자
+            // $("img").attr("src", "http://placehold.it/200x200");
+            // $("img").attr("width", "200px");
+
+            // $("img").attr({
+            //     alt: "jQuery라이브러리로 속성지정",
+            //     src: "http://placehold.it/200x200",
+            //     width: 200
+            // }) 바로 위 주석과 동일한 결과물나옴 (객체를 입력해 속성 지정)
+
+            $("img").attr({
+                alt: "jQuery라이브러리로 속성지정",
+                src: function (index) {
+                    // 변수선언
+                    var size = (index + 1) * 200;
+                    return "http://placehold.it/" + size + "x200";
+
+                }
+            });
+            
+            $(".box").css({
+                float: "left",
+                margin: "10",
+                width: "100",
+                height: "100",
+                backgroundColor: "red"
+
+            });
+            
+        });
+       
+        
+    </script>
+</head>
+<body>
+    <h1>jQuery</h1>
+    <h1>Hello, World</h1>
+    <h1>Tuseday</h1>
+    <br>
+    <img>
+    <img>
+    <img>
+    <br>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>
