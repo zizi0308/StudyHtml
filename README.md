@@ -28,6 +28,9 @@ Javascript 기본 학습
 
 ## Project
 전체 통합 프로젝트
-#### 반응형 웹 그리드 레이아웃 웹페이지 실습
 
+#### 반응형 웹 그리드 레이아웃 웹페이지 실습
+![결과1](https://github.com/zizi0308/StudyHtml/blob/main/ref_image/result01.png)
+
+![결과2](https://github.com/zizi0308/StudyHtml/blob/main/ref_image/result02.png)
 
