@@ -5,7 +5,7 @@
     padding: 15px 15px 0;
     font-size: 12px;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #f3efb9;
     box-shadow: 0 1px 3px rgba(34, 25, 25, 0.5);
 }
 
@@ -20,7 +20,7 @@
 .paper-content {
     margin: 10px -15px 0 -15px;
     padding: 10px 15px;
-    background-color: #f2f0f0;
+    background-color: #b3e2bf;
     overflow: hidden;
 }
 
@@ -116,3 +116,16 @@ width: 620px;
 .lightbox-splitter {
 margin: 10px 0;            
 }
+
+.container {
+    background-color: antiquewhite;
+    position: absolute;
+    font-style: italic;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    bottom: 50px;
+    width: 40px;
+}
+
+
