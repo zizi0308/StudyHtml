@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="css/init.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/desingnes.css">
-    
+
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>
@@ -33,21 +34,22 @@
             });
 
             // 라이트박스
-            $(".paper").click(function() { showLightBox(); });
-            $("#darken-background").click(function() { hideLightBox(); });
+            $(".paper").click(function () { showLightBox(); });
+            $("#darken-background").click(function () { hideLightBox(); });
             // 라이트박스이벤트 서포트 // 하얀영역을 클릭해도 라이트박스꺼지는 걸 방지
             $("#lightbox").click(function (event) {
-               event.stopPropagation();
+                event.stopPropagation();
             });
         });
 
         function showLightBox() {
-            $("#ramdom-image").attr({
+            $("#random-image").attr({
                 src: function () {
-                    var rnd_height = Math.floor(Math.random() * 100);
+                    var rnd_height = 500 + Math.floor(Math.random() * 100);
                     return "https://placekitten.com/600/" + rnd_height;
                 }
             });
+            $("#darken-background").show();
             $("#darken-background").css("top", $(window).scrollTop());
             $("body").css('overflow', 'hidden');
         }
@@ -58,9 +60,10 @@
         }
     </script>
 
-  
+
 
 </head>
+
 <body>
     <!-- 헤더 -->
     <header id="main-header">
@@ -118,7 +121,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <!-- 페이퍼 끝 -->
@@ -131,7 +136,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure velit repudiandae aliquam commodi, qui eum porro magnam vitae rerum sapiente maiores nesciunt earum facere deserunt unde et provident aliquid sed?</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure velit repudiandae
+                    aliquam commodi, qui eum porro magnam vitae rerum sapiente maiores nesciunt earum facere deserunt
+                    unde et provident aliquid sed?</p>
             </div>
         </div>
         <div class="paper">
@@ -143,7 +150,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -155,7 +164,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -167,7 +178,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -179,7 +192,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -191,7 +206,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -203,7 +220,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -215,7 +234,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -227,7 +248,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -239,7 +262,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -251,7 +276,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -263,7 +290,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -275,7 +304,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -287,7 +318,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -299,7 +332,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -311,7 +346,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -323,7 +360,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -335,7 +374,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -347,7 +388,9 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
         <div class="paper">
@@ -359,27 +402,29 @@
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
+                <p class="paper-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur
+                    asperiores odit laboriosam, libero, beatae numquam natus ipsum veritatis vitae voluptatem impedit
+                    incidunt, quidem nam ratione. Impedit voluptatem nulla sequi!</p>
             </div>
         </div>
     </section>
     <div id="darken-background">
         <div id="lightbox">
-            <a class="user-information">
+            <div class="user-information">
                 <a class="user-information-image" href="#">
-                    <img src="http://placehold.it/70x70">
                     <img src="https://placekitten.com/70/70">
                 </a>
-            <div class="user-information-text">
-                <h3>User</h3>
-                <p>Lorem ipsum dolor sit amet</p>
+                <div class="user-information-text">
+                    <h3>User</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
             </div>
+            <hr class="lightbox-splitter">
+            <img id="random-image" src="http://placekitten.com/600/751">
         </div>
-        <hr class="lightbox-splitter">
-        <img src="http://placekitten.com/600x751">
-        <img id="random-image">
     </div>
     <footer id="main-footer"></footer>
-    
+
 </body>
+
 </html>
