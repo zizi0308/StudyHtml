@@ -124,7 +124,7 @@
 
 ### 결과 이미지
 
-![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfMjg0/MDAxNjEyNjA0MjM4Mjg0.uEEmrfj9ILWc0eCe1r1LVgY6xaqN_tUEUvKCg8ZHI-4g.IDzQWV3e6bP5TiecCt8p7S64If6Tcfeg7VC8l-ZRkyog.PNG.whgmlwl222/space_practice.png)
+![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfMjQ0/MDAxNjEyNjA0NDUwNTg3.2PWCMaM4VWM1WhEF-5YbgjtGSvPYIfS-ZT_BHyAyiMog.KoYYdUJnt1vaBhJ2cRCA_YozcWzb0C1jKS5b7U5W0Vcg.PNG.whgmlwl222/space_practice.png)
 
 
 -
