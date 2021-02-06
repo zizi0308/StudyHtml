@@ -15,14 +15,14 @@ HTML 기본 학습
 ---------------
 
 ## CSS
-CSS 기본 학습
+CSS 기본 학습 합니다.
 
 [CSS소스](https://github.com/zizi0308/StudyHtml/tree/main/02_CSS)
 
 ----------------
 
 ## Javascript
-Javascript 기본 학습
+Javascript 기본 학습합니다.
 
 [JS소스](https://github.com/zizi0308/StudyHtml/tree/main/03_JavaScript)
 
