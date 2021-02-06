@@ -1,9 +1,10 @@
 # CSS3 기본학습
 
 ## CSS3 기본구조와 작성방법
-CSS 블록생성 및 선택자의 이해와 선택자 활용
 
-------------
+
+## css3의 속성
+CSS3의 블록 생성과 
 
 ### 전체선택자와 태그선택자
 
@@ -274,7 +275,101 @@ CSS 블록생성 및 선택자의 이해와 선택자 활용
 
 
 
+------------------
+
+## 다양한 레이아웃의 구성과 기능
+
+
+### 수평레이아웃
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        .container {
+            overflow: hidden;
+        }
+
+        .menu {
+            float: left;
+            margin: 0 3px;
+            padding: 10px;
+            border: solid black 1px;
+        }
+    
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque nam ab modi hic vero, architecto explicabo dolorem tempora alias quod quasi distinctio corporis accusantium quo velit voluptatem ad rem maxime.</p>
+    <div class="container">
+        <div class="menu">메뉴 - 1</div>
+        <div class="menu">메뉴 - 2</div>
+        <div class="menu">메뉴 - 3</div>
+        <div class="menu">메뉴 - 4</div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae beatae unde deserunt nulla? Aliquam, voluptatibus deserunt recusandae animi illo veritatis eum perferendis adipisci ex, aspernatur soluta necessitatibus natus labore.</p>
+    
+    
+</body>
+</html>
+```
+
+
+#### 결과이미지
+
+![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfMjU3/MDAxNjEyNjA5NDc1NDU1.FEueTAl9PSipcEI7xNAox2414yXep0uQqYOlBPy6epAg.HbswJON8zf6yifZhYEQf1j3Yftc0tMVmxVGq50Tj7mgg.PNG.whgmlwl222/%EC%88%98%ED%8F%89.png)
+
+
 -
+
+### 중앙레이아웃
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Center alinement layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0 auto;
+            width: 960px;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor, sit amet</h1>
+    <h2>Lorem ipsum dolor, sit amet</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis quo repellat, atque nam amet vitae, delectus quis nisi autem quod! Dolore, voluptatem dicta! Facilis dolore similique magnam ut est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium laborum quas laboriosam similique ipsum blanditiis voluptate animi facilis, maiores totam, voluptatibus quia. Fugiat ratione, reiciendis quaerat neque deleniti eaque iusto?</p>
+    
+</body>
+</html>
+```
+
+
+#### 결과이미지
+
+
+![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfMTky/MDAxNjEyNjA5NTU2NTc0.aFHYf0DazkgquWt-9F2BGG6RrKGCEGAhnbtloOIXZyMg.VVaaoSyg9QcdtEt2dAsu3Jc51O0PlqAKxprdvijB0_sg.PNG.whgmlwl222/%EC%A4%91%EC%95%99.png)
+
+
+-
+
 
 
 [이전](https://github.com/zizi0308/StudyHtml/tree/main/02_CSS)
