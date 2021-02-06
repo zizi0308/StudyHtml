@@ -72,6 +72,9 @@
 </html>
 ```
 
+
+
+#### 결과 이미지
 ![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfMzkg/MDAxNjEyNjAzMjA1ODE5.LBDuQ6DH0C92rUDwGWqz4JSzTRWThQBX3q2ki4Ps7vYg.4V4EDTC6PDCFoSwC2_zbWi0f0x2424hbtxRrBIz3R_Ig.PNG.whgmlwl222/form_practice_result_01.png)
 
 
