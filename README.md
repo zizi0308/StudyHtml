@@ -33,17 +33,17 @@ HTML 기본 학습
 ## Project
 전체 통합 프로젝트
 
-### 반응형 웹 그리드 레이아웃 웹페이지 실습<br/><br/>
+### .반응형 웹 그리드 레이아웃 웹페이지 실습<br/><br/>
 
-__-전체레이아웃__ <br/>
+__1. 전체레이아웃__ <br/>
 ![결과1](https://github.com/zizi0308/StudyHtml/blob/main/ref_image/result01.png "전체 레이아웃")
 
 
-__-하단레이아웃__<br/>
+__2. 하단레이아웃__<br/>
 ![결과2](https://github.com/zizi0308/StudyHtml/blob/main/ref_image/Result03.png "하단 레이아웃")
 
 
-__-팝업레이아웃__<br/>
+__3. 팝업레이아웃__<br/>
 ![결과3](https://github.com/zizi0308/StudyHtml/blob/main/ref_image/result02.png "팝업 레이아웃")
 
 
