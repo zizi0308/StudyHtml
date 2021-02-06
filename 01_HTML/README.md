@@ -80,5 +80,54 @@
 
 -
 
+## 구조화 태그
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>공간분할 페이지</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <h1>공간분할 테스트</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">메뉴 1</a></li>
+            <li><a href="#">메뉴 2</a></li>
+            <li><a href="#">메뉴 3</a></li>
+            <li><a href="#">메뉴 4</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p> consectetur adipisicing elit. Ad nulla aut temporibus minus ducimus eius ab in mollitia obcaecati labore recusandae expedita, maiores eos quaerat a cumque. Vero, rem minus?</p>
+        </article>
+        <article>
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p> consectetur adipisicing elit. Ad nulla aut temporibus minus ducimus eius ab in mollitia obcaecati labore recusandae expedita, maiores eos quaerat a cumque. Vero, rem minus?</p>
+        </article>
+    </section>
+    <footer>
+        <address>부산광역시 남구 용호동 부경대학교 용당캠퍼스</address>
+    </footer>
+</body>
+</html>
+```
+
+### 결과 이미지
+
+![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfNzIg/MDAxNjEyNjAzOTIyNTI0.tS8Mx4IhDcGzM-ls_zm68zz13C5pEsCvrmGfsCUAu6og.C0-LBRa2RebMsBKePzpYYFhfuz_1FbQyw8jrbscHnp8g.PNG.whgmlwl222/space_practice.png)
+
+
+-
+
 
 [이전](https://github.com/zizi0308/StudyHtml)
