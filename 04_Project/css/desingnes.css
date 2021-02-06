@@ -5,7 +5,7 @@
     padding: 15px 15px 0;
     font-size: 12px;
     border-radius: 10px;
-    background-color: #f3efb9;
+    background-color:  #FFEA85;
     box-shadow: 0 1px 3px rgba(34, 25, 25, 0.5);
 }
 
@@ -20,7 +20,7 @@
 .paper-content {
     margin: 10px -15px 0 -15px;
     padding: 10px 15px;
-    background-color: #b3e2bf;
+    background-color: #bdddbf;
     overflow: hidden;
 }
 

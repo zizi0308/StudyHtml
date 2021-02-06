@@ -11,12 +11,12 @@
             // 문서객체 추가함수
             var appendDoc = function () {
                 for (let index = 0; index < 40; index++) {
-                    $("<h1>Infinity scroll</h1>").appendTo("body");
+                    $("<h1>Infinity scroll"+ index +"</h1>").appendTo("body");
                     
                 }
-            };
+            }
 
-            appendDocument(); // << 함수호출
+            appendDoc(); // << 함수호출
 
             $(window).scroll(function () {
                 var scrollHeight = $(window).scrollTop() + $(window).height();
