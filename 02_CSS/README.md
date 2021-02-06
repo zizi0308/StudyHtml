@@ -3,8 +3,8 @@
 ## CSS3 기본구조와 작성방법
 
 
-## css3의 속성
-CSS3의 블록 생성과 
+## CSS3의 선택자와 단위
+
 
 ### 전체선택자와 태그선택자
 
@@ -274,8 +274,125 @@ CSS3의 블록 생성과
 ![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfMjE3/MDAxNjEyNjA4NzQ3ODE5.OQWABunzeizW9ub8-ekZdmL8zR9ToR6il9UdqUM8ckMg.oPg2xNwn72ST5TRLHILO-vxSCXQYsT18Bs3j2Er7RBEg.PNG.whgmlwl222/unit.png)
 
 
+-------------------
+
+
+## CSS의 다양한 속성적용
+
+
+### 박스속성
+
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<style>
+    .help {
+        color: #ffffff;
+        width: 100px;
+        height: 100px;
+        background-color: rebeccapurple;
+        margin: 30px 0 0 100px;
+        /* 
+        margin-top: 10px;
+        margin-right: 0;
+        margin-bottom: 0; 
+        margin-left: 100px; 이순서로 숫자넣어야 함
+        */
+        padding: 10px 0 0 20px;
+        text-align: center;
+        border: 20px solid black;
+        /* border-style: solid;
+        border-color: black;
+        border-width: 20px; 이것들을 다 포함함
+        */
+        border-radius: 10px;
+    }
+
+    #box {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+    }
+</style>
+<body>
+    <div class="help">HELP!</div>
+    <hr>
+    <span>더미객체</span>
+    <div id="box"></div>
+    <span>더미객체</span>
+    
+</body>
+</html>
+```
+
+
+#### 결과 이미지
+
+![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfMTM4/MDAxNjEyNjEwMjYyMzk2.RNYN3ML3fPag2xyZe8H1V-H3ZjgTrHWpk7YsZqBQqN0g.AaCAeiQJP3wLeActcYE5zWbKSbF7YJlE7J2rJJ1MS6gg.PNG.whgmlwl222/%EB%B0%95%EC%8A%A4.png)
+
+
+-
+
+
+### 배경속성
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<style>
+    body {
+        /* 각각 그림을 레이어라고 함 */
+        background-image: url('media/BackgroundFront.png');
+        background-size:  50%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-attachment: fixed;
+        background-color: azure;
+        font-family: 'NanumGohtic';
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    a :hover {
+        text-decoration: underline;;
+    }
+</style>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga error perferendis voluptatum velit ut. Corporis libero earum consequatur natus. Dicta consectetur tempora recusandae necessitatibus? Fugiat rerum aliquam consequatur vero?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem necessitatibus fuga eum itaque atque consectetur tempora molestiae ipsa suscipit dolores, asperiores architecto facere maiores ipsum dolore aliquam officia esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem necessitatibus fuga eum itaque atque consectetur tempora molestiae ipsa suscipit dolores, asperiores architecto facere maiores ipsum dolore aliquam officia esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem necessitatibus fuga eum itaque atque consectetur tempora molestiae ipsa suscipit dolores, asperiores architecto facere maiores ipsum dolore aliquam officia esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem necessitatibus fuga eum itaque atque consectetur tempora molestiae ipsa suscipit dolores, asperiores architecto facere maiores ipsum dolore aliquam officia esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem necessitatibus fuga eum itaque atque consectetur tempora molestiae ipsa suscipit dolores, asperiores architecto facere maiores ipsum dolore aliquam officia esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem necessitatibus fuga eum itaque atque consectetur tempora molestiae ipsa suscipit dolores, asperiores architecto facere maiores ipsum dolore aliquam officia esse.</p>
+    <p><a href="https://www.naver.com" target="blank">NAVER</a></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem necessitatibus fuga eum itaque atque consectetur tempora molestiae ipsa suscipit dolores, asperiores architecto facere maiores ipsum dolore aliquam officia esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem necessitatibus fuga eum itaque atque consectetur tempora molestiae ipsa suscipit dolores, asperiores architecto facere maiores ipsum dolore aliquam officia esse.</p>
+```
+
+
+
+#### 결과이미지
+
+![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfNzQg/MDAxNjEyNjEwNDIyNzE0.g8E6qfI1YYk4nhMhZQbn3whss3zaYkVouZqJEFunE6wg.kO26JVnx6epnA1hAfxxicFjSzkmh1nfuC4qlwqUUpvUg.PNG.whgmlwl222/%EB%B0%B0%EA%B2%BD.png)
+
 
 ------------------
+
 
 ## 다양한 레이아웃의 구성과 기능
 
