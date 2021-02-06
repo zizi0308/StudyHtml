@@ -43,12 +43,16 @@ CSS 블록생성 및 선택자의 이해와 선택자 활용
 </html>
 ```
 
+
+
 #### 결과 이미지
 
 ![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfODIg/MDAxNjEyNjA3MTg5ODQz.tjHhYXv5FOzcZwwzFm5jyou07eaSIWpyDFZxcVPvvsUg.cFtKNVMI8YzmFwE_etOpFFzBYAouznz-7xys6rFEmoYg.PNG.whgmlwl222/select_basic.png)
 
 
 -
+
+
 
 
 ### 자손선택자와 아이디선택자
@@ -126,9 +130,13 @@ CSS 블록생성 및 선택자의 이해와 선택자 활용
 ```
 
 
+
+
 #### 자손선택자 결과이미지
 
 ![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfMTE5/MDAxNjEyNjA3MTg5ODMz.w6fbqMsSu5Z7ppixanNZiTeIxcDldBWmCRgBGZlLfN4g._xnSC6dxd_XX5CDLm_UfIvQ2edu0gSz-kdhHEd4glgkg.PNG.whgmlwl222/selector_child.png)
+
+
 
 
 -
@@ -236,7 +244,37 @@ CSS 블록생성 및 선택자의 이해와 선택자 활용
 ### 다양한 크기의 단위적응
 
 ```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        p:nth-child(1) { font-size: 10px;}
+        p:nth-child(2) { font-size: 16px;}
+        p:nth-child(3) { font-size: 32px;}
+        p:nth-child(4) { font-size: 40px;}
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nihil unde consequuntur laborum cumque consequatur quae cupiditate doloribus ullam, id quo saepe culpa obcaecati cum quaerat eius aspernatur amet vel?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nihil unde consequuntur laborum cumque consequatur quae cupiditate doloribus ullam, id quo saepe culpa obcaecati cum quaerat eius aspernatur amet vel?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nihil unde consequuntur laborum cumque consequatur quae cupiditate doloribus ullam, id quo saepe culpa obcaecati cum quaerat eius aspernatur amet vel?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nihil unde consequuntur laborum cumque consequatur quae cupiditate doloribus ullam, id quo saepe culpa obcaecati cum quaerat eius aspernatur amet vel?</p>
+</body>
+</html>
+```
 
+
+#### 결과 이미지
+
+![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfMjE3/MDAxNjEyNjA4NzQ3ODE5.OQWABunzeizW9ub8-ekZdmL8zR9ToR6il9UdqUM8ckMg.oPg2xNwn72ST5TRLHILO-vxSCXQYsT18Bs3j2Er7RBEg.PNG.whgmlwl222/unit.png)
+
+
+
+-
 
 
 
