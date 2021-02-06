@@ -8,21 +8,23 @@ HTML 기본 학습
 
 
 ### HTML이란?
-개요에 대해서 학습합니다.
+
 
 [HTML소스](https://github.com/zizi0308/StudyHtml/tree/main/01_HTML)
 
 ---------------
 
 ## CSS
-CSS 기본 학습 합니다.
+
+### CSS 기본 학습 및 다양한 속성적용
 
 [CSS소스](https://github.com/zizi0308/StudyHtml/tree/main/02_CSS)
 
 ----------------
 
 ## Javascript
-Javascript 기본 학습합니다.
+
+### Javascript 기본 학습과 활용
 
 [JS소스](https://github.com/zizi0308/StudyHtml/tree/main/03_JavaScript)
 
@@ -32,10 +34,16 @@ Javascript 기본 학습합니다.
 전체 통합 프로젝트
 
 #### 반응형 웹 그리드 레이아웃 웹페이지 실습
+
+__전체레이아웃__
 ![결과1](https://github.com/zizi0308/StudyHtml/blob/main/ref_image/result01.png "전체 레이아웃")
 
+
+__하단레이아웃__
 ![결과2](https://github.com/zizi0308/StudyHtml/blob/main/ref_image/Result03.png "하단 레이아웃")
 
+
+__팝업레이아웃__
 ![결과3](https://github.com/zizi0308/StudyHtml/blob/main/ref_image/result02.png "팝업 레이아웃")
 
 
