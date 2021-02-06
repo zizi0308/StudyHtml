@@ -80,7 +80,7 @@
 
 -
 
-## 구조화 태그
+## HTML 구조화 태그
 
 ```html
 <!DOCTYPE html>
