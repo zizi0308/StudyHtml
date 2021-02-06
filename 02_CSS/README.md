@@ -487,6 +487,81 @@
 
 -
 
+### OneTrue레이아웃
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>One ture layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0 auto;
+            width: 800px;
+        }
+
+        #header {
+            overflow: hidden;
+            background-color: darksalmon;
+        }
+
+        #section {
+            overflow: hidden;
+        }
+
+        #aside {
+            float: left;
+            width: 200px;
+            background-color: blueviolet;
+        }
+
+        #content {
+            float: left;
+            width: 600px;
+            background-color: chocolate;
+        }
+
+        #footer {
+            background-color: cyan;
+
+        }
+
+        .ellipsis {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            /* 글자생략하는것 => ellipsis 꼭  필요한 기능*/
+        }
+    </style>
+</head>
+<body>
+    <div id=header class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ex nisi perferendis? Velit saepe minima odit mollitia numquam fugit quod, sit quos et enim quaerat tempore voluptatum. Aut, illo eum?</div>
+    <div id="section" class="ellipsis">
+        <div id="aside" class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque consectetur saepe iusto, magnam voluptatibus, repellat nihil facere dolore provident quam, maiores repudiandae mollitia repellendus tempore sunt neque magni impedit? Rerum!</div>
+        <div id="content" class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda suscipit ratione aliquid eum quasi, facilis, inventore dignissimos, laborum modi vero. Rerum doloremque iure minus dolorem cum veniam ex ducimus?</div>
+    </div>
+    <div id="footer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ea quas? Blanditiis numquam quia facere omnis alias explicabo dolores velit odio rerum asperiores, quis expedita magnam esse vero tempora sed!
+    </div>
+</body>
+</html>
+```
+
+
+#### 결과 이미지
+
+![결과](https://blogfiles.pstatic.net/MjAyMTAyMDZfMjU2/MDAxNjEyNjEwNjUwNjM5.mHWYMvsoIVtmHB7zi1BNGK1rP1Or0_2asI0ET74Gtr4g.wcJIdM49gnLKJ_k2jqttrVUTY850VFkxnT7JsaRutDsg.PNG.whgmlwl222/onetrue.png)
+
+-
 
 
 [이전](https://github.com/zizi0308/StudyHtml/tree/main/02_CSS)
