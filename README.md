@@ -37,6 +37,8 @@ HTML 기본 학습
 HTML5를 활용하여 홈페이지를 제작해보았습니다. CSS를 활용해 전체 디자인을 하였고, Javascript를 활용해 팝업레이아웃 및 반응형 웹 그리드 레이아웃 웹페이지를 만들어 보았습니다. 
 
 
+
+
 __1. 전체레이아웃__ <br/>
 ![결과1](https://github.com/zizi0308/StudyHtml/blob/main/ref_image/result01.png "전체 레이아웃")
 
